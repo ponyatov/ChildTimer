@@ -1,4 +1,4 @@
-#include "TIMER.h"
+#include "TIMER.cfg"
 
 FILE *GUI;
 char S[1024];

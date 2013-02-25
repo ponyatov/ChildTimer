@@ -8,6 +8,6 @@ TARGET = mingw32
 CC = $(TARGET)-gcc
 FLAGS = -march=native -O2 -pipe
 
-%.exe: %.c TIMER.h Makefile
+%.exe: %.c TIMER.cfg Makefile
 	$(CC) $(FLAGS) -o $@ $<
 	

@@ -1,4 +1,4 @@
-#include "TIMER.h"
+#include "TIMER.cfg"
 
 char title[1024];
 int T=0;
