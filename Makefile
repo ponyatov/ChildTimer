@@ -1,5 +1,5 @@
 all: TIMER.exe TIMER_GUI.exe
 
-%.exe: %.c
+%.exe: %.c TIMER.h
 	gcc -o $@ $<
 	
