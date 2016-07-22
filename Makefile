@@ -3,11 +3,6 @@ all: TIMER.exe TIMER_GUI.exe
 clean:
 	rm -f *.o *.exe
 
-TARGET = mingw32
-
-CC = $(TARGET)-gcc
-FLAGS = -march=native -O2 -pipe
-
 %.exe: %.c TIMER.cfg Makefile
-	$(CC) $(FLAGS) -o $@ $<
+	gcc $(CFLAGS) -o $@ $<
 	
