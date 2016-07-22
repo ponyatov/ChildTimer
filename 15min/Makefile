@@ -1,5 +1,6 @@
 all: 15min.exe
-#	$< 11min
+	$<
+#	11min
 
 CFLAGS += -mwindows
 %.exe: %.cpp
