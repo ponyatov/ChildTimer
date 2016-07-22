@@ -1,5 +1,5 @@
 
-#define Tmin  1
+#define Tmin 11
 #define Tmax 30
 
 #include <iostream>
