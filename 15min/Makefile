@@ -1,7 +1,4 @@
-all: 15min.exe
-	$<
-#	11min
-
+all: $(notdir $(CURDIR)).exe
 CFLAGS += -mwindows
-%.exe: %.cpp
+%.exe: %.cpp Makefile
 	$(CXX) $(CFLAGS) -o $@ $< 
